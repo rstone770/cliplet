@@ -72,7 +72,8 @@
     chatter: [
       'Press the print screen key and paste the image into an image editor to save your work.',
       'Try clicking on a link on to navigate.',
-      'Can\'t find what you are looking for? Try asking Jeves.'
+      'Can\'t find what you are looking for? Try using Ask Jeves.',
+      'It looks like you\'re trying to launder money! You might consider buying a cash operated business.'
     ]
   };
 
