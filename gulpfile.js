@@ -1,4 +1,5 @@
 var gulp = require('gulp'),
+    gutil = require('gulp-util'),
     rename = require('gulp-rename'),
     template = require('gulp-template'),
     through = require('through2'),
@@ -13,7 +14,7 @@ var bookmarklet = through.obj(function (file, enc, done) {
 
 gulp.task('default', function () {
   var stream = gulp.src('src/cliplet.js')
-    .pipe(uglify())
+    .pipe(uglify().on('error', gutil.log))
     .pipe(template(pkg))
     .pipe(bookmarklet)
     .pipe(rename('cliplet'))

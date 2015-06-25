@@ -71,9 +71,14 @@
      */
     chatter: [
       'Press the print screen key and paste the image into an image editor to save your work.',
-      'Try clicking on a link on to navigate.',
-      'Can\'t find what you are looking for? Try using Ask Jeves.',
-      'It looks like you\'re trying to launder money! You might consider buying a cash operated business.'
+      'Try clicking on a link to navigate.',
+      'Can\'t find what you are looking for? Try using Ask Jeeves.',
+      'It looks like you\'re trying to launder money! You might consider buying a cash-operated business.',
+      'It looks like you\'re trying to get to the choppa. Would you like to do it now?',
+      'When in doubt, apply coconut oil directly to the screen.',
+      'Utilizing #yolo in your tweets will help you gain a larger following.',
+      'Alt+F4 for more great tips and hints.',
+      'When you\'re having a bad day, just remember to smile. I hear it\'s contagious.'
     ]
   };
 
